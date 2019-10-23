@@ -30,8 +30,8 @@ services:
       - "mongo"
     environment: 
       DB_URI: mongodb://mongo:27017/cmpaas?retryWrites=true&w=majority
-      SMTP_CONF: smtps://cmpaas@gmail.com:Cmp@4sUFES@smtp.gmail.com
-      URL_EMAIL: http://200.137.66.10/pages/newpassword/
+      SMTP_CONF: smtps://<EMAIL>:<PASSWORD>@smtp.gmail.com
+      URL_EMAIL: http://localhost/pages/newpassword/
     
   cmpaas-frontend:
     image: lukasg18/cmpaas-frontend:1.0.6
