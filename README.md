@@ -2,7 +2,13 @@
 
 ## Execução do projeto
 
-Após a instalação, a execução do projeto é feita usando o comando `docker-compose up` dentro da pasta do projeto, as imagens serão montadas e executadas em ordem o sistema pode ser acessado via http://localhost/ e a api REST em http://localhost:3000/docs.
+A execução do projeto é feita usando o comando:
+```shell
+$ docker-compose up
+```
+
+Este modelo do Docker Compose fornece um contêiner de BackEnd e FrontEnd do projeto CMPaaS já pré configuradas banco de dados Mongod,
+os containers serão executado e o sistema pode ser acessado via http://localhost/ e a api REST em http://localhost:3000/docs.
 
 
 ## Imagens
